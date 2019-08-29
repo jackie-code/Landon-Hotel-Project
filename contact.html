@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact</title> 
+    <style>
+        
+        header img {
+            width: 100%;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        nav a {
+            text-decoration: none;
+            color: purple;
+          
+        }
+        nav a:hover {
+            transform: scale(1.5);
+        }
+        form div {
+            margin: 0 0 10px;
+            display: flex;
+        }
+    
+        form span {
+            width: 5rem;
+        }
+        form #comment {
+            display: block;
+        }
+        section {
+            margin: 10%;
+        }
+        
+        footer {
+            background-color: purple;
+            padding: 0 0 .5em;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <img src="images/header.png" alt="header">
+        <img src="images/headers/Hong-Kong.jpg" alt="hongkong">
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="service.html">Room Service</a>
+        <a href="specials.html">Specials</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="meetings-events.html">Meetings and Events</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+    <h1>Contact</h1>
+    <h2>Leave a Reply</h2>
+       
+        <form>
+        <div>
+  <span>First name*</span>
+  <input type="text" name="firstname"><br>
+  </div>
+  <div>
+  <span>Last name*</span>
+  <input type="text" name="lastname"><br>
+  </div>
+  <div>
+  <span>Email* </span>
+  <input type="text" name="email"><br>
+  </div>
+  <div id="comment">
+<p>Comment</p>
+<textarea name="comment" form="comments" rows="5" cols="30">Enter text here...</textarea>
+</div>
+<input type="submit" value="send">
+</form>
+</section>
+<footer>
+    <p>Copyright &copy; The Landon Hotel 2016</p>
+</footer>
+</body>
+</html>

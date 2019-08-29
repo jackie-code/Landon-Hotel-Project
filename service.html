@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Service</title>
+    <style>
+        header img {
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: purple;
+        }
+
+        nav a:hover {
+            transform: scale(1.5);
+        }
+
+        ul a {
+            text-decoration: none;
+        }
+
+        ul a:hover {
+            color: orange;
+        }
+
+        section {
+            margin-left: 10%;
+        }
+
+        form div {
+            margin: 0 0 10px;
+            display: flex;
+        }
+
+        form #comment {
+            display: block;
+        }
+
+        form span {
+            width: 5rem;
+        }
+
+        footer {
+            background-color: purple;
+            padding: 0 0 .5em;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/header.png" alt="header">
+        <img src="images/headers/Paris-2.jpg" alt="paris">
+    </header>
+    <section>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="service.html">Room Service</a>
+            <a href="specials.html">Specials</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="meetings-events.html">Meetings and Events</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <h1>
+            Room Service
+        </h1>
+        <p>
+            No matter what you're craving, <span>Restaurant to Room</span> has you covered. Our fast and friendly delivery service brings you hot, fresh food, from a diverse choice of local restauants.
+        </p>
+        <ul>
+            <a href="#">
+                <li>
+                    Dinner Destiny
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    Eat Your Veggies Caf&eacute;
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    Food Rendezvous
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    Jeffery's on the Square
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    Legume Palace
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    Pickles & Pepperoni Deli
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    Picky Palate
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    Simply Safe
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    Supreme & Fancy Pizza
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    Totally Fishy
+                </li>
+            </a>
+        </ul>
+        <p>
+            Simply fill out the online form below, and we'll have food delivered directly to your room, within an hour, or your meal is free. The only difficult part is choosing. (Sorry, we can't help you with that.)
+        </p>
+
+        <form>
+            <div>
+                <label for="restaurant">Restaurant Preference</label>
+                <input type="text" list="restaurants" id="restaurant" name="restaurant">
+                <datalist id="restaurants">
+                    <option value="P.F Changs">
+                    </option>
+                    <option value="Iguanamia's">
+                    </option>
+                    <option value="Rocko's Tacos">
+                    </option>
+                    <option value="Thai Palace">
+                    </option>
+                    <option value="Mellow Mushroom">
+                    </option>
+                    <option value="Japanese Garden">
+                    </option>
+                    <option value="Mamamia">
+                    </option>
+                </datalist>
+            </div>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name"><br>
+            </div>
+            <div>
+                <label for="room number">Room Number</label>
+                <input type="text" name="roomnumber" id="room number"><br>
+            </div>
+            <div>
+                <label for="delivery time">Delivery Time</label>
+                <input type="text" name="name" id="delivery time"><br>
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone"><br>
+            </div>
+            <div>
+                <label for="email">Email*</label>
+                <input type="text" name="email" id="email"><br>
+            </div>
+            <div id="comment">
+                <p for="comment">Comment</p>
+                <textarea name="comment" form="comments" id="comment">Enter text here...</textarea>
+            </div>
+            <input type="submit" value="send">
+        </form>
+    </section>
+    <footer>
+        <p>
+            Copyright &copy; The Landon Hotel 2016
+        </p>
+    </footer>
+</body></html>
